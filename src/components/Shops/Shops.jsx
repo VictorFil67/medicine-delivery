@@ -3,7 +3,7 @@ import { pharmacies } from "./pharmacies";
 import s from "./Shops.module.css";
 
 export const Shops = () => {
-  function showMedicines(id) {}
+  // function showMedicines(id) {}
   return (
     <div>
       <h2>Shops:</h2>
@@ -13,7 +13,7 @@ export const Shops = () => {
             <button
               className={s.shopButton}
               type="button"
-              onClick={showMedicines}
+              // onClick={showMedicines}
             >
               {pharmacy.name}
             </button>
