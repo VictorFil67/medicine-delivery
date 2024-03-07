@@ -1,0 +1,18 @@
+.mainShops {
+  display: flex;
+  gap: 20px;
+  height: 90vh;
+}
+
+.shops {
+  width: 30%;
+  border: 2px solid grey;
+  border-radius: 10px;
+  padding: 20px 40px;
+}
+
+.medicines {
+  width: 70%;
+  border: 2px solid grey;
+  border-radius: 10px;
+}
